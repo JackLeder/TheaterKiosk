@@ -11,7 +11,7 @@ import java.util.Scanner;
 
 public class TheaterKiosk {
     public static void main(String[] args) {
-        int trash;
+        String trash;
         Scanner input = new Scanner(System.in);
         System.out.println("Please enter your age: ");
 
@@ -24,7 +24,7 @@ public class TheaterKiosk {
 
         }
         else {
-            trash = input.nextInt();
+            trash = input.nextLine();
             System.out.println("invalid choice");
             System.exit(0);
         }
